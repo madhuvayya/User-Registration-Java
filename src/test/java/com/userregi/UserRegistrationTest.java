@@ -67,4 +67,11 @@ public class UserRegistrationTest {
         boolean result = userRegi.validatePswd("Mas1brtB");
         Assert.assertEquals(true,result);
     }
+
+    @Test
+    public void givenPswd_WhenHasExact1SpecialChar_ShouldReturnTrue() {
+        UserRegistration userRegi = new UserRegistration();
+        boolean result = userRegi.validatePswd("mDk$dkf1");
+        Assert.assertEquals(true,result);
+    }
 }

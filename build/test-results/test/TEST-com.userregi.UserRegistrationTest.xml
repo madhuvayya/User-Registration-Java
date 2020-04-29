@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.userregi.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-29T05:16:56" hostname="PRABHAKAR" time="0.004">
+<testsuite name="com.userregi.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-29T05:28:01" hostname="PRABHAKAR" time="0.003">
   <properties/>
-  <testcase name="givenPswd_WhenAtleast1Number_ShouldReturnTrue" classname="com.userregi.UserRegistrationTest" time="0.004"/>
+  <testcase name="givenPswd_WhenHasExact1SpecialChar_ShouldReturnTrue" classname="com.userregi.UserRegistrationTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
