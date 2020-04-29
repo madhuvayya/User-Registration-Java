@@ -34,9 +34,16 @@ public class UserRegistrationTest {
     }
 
     @Test
-    public void givenEmailId_whenProper_shouldReturnTrue() {
+    public void givenEmailId_WhenProper_ShouldReturnTrue() {
         UserRegistration userRegi = new UserRegistration();
         boolean result = userRegi.validateEmailId("madhu.vayya@gmail.com");
+        Assert.assertEquals(true,result);
+    }
+
+    @Test
+    public void givenMobNum_WhenProper_ShouldReturnTrue() {
+        UserRegistration userRegi = new UserRegistration();
+        boolean result = userRegi.validateMobNum("91 7680002101");
         Assert.assertEquals(true,result);
     }
 }
