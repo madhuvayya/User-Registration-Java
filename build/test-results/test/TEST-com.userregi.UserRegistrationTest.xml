@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.userregi.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-29T04:42:26" hostname="PRABHAKAR" time="0.004">
+<testsuite name="com.userregi.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-29T04:52:35" hostname="PRABHAKAR" time="0.004">
   <properties/>
-  <testcase name="givenMobNum_WhenProper_ShouldReturnTrue" classname="com.userregi.UserRegistrationTest" time="0.004"/>
+  <testcase name="givenPswd_WhenMin8Chars_ShouldReturnTrue" classname="com.userregi.UserRegistrationTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

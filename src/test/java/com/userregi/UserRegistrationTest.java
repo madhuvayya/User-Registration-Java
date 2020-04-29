@@ -46,4 +46,11 @@ public class UserRegistrationTest {
         boolean result = userRegi.validateMobNum("91 7680002101");
         Assert.assertEquals(true,result);
     }
+
+    @Test
+    public void givenPswd_WhenMin8Chars_ShouldReturnTrue() {
+        UserRegistration userRegi = new UserRegistration();
+        boolean result = userRegi.validatePswd("nDj1k#jf");
+        Assert.assertEquals(true,result);
+    }
 }
