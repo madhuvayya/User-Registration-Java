@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class UserRegistrationTest {
+
     @Test
     public void givenFirstName_WhenFirstLatterUpperCase_ShouldReturnTrue() {
         UserRegistration userRegi = new UserRegistration();
@@ -26,10 +27,16 @@ public class UserRegistrationTest {
     }
 
     @Test
-    public void givenLasttName_WhenLessThanThreeChars_ShouldReturnFalse() {
+    public void givenLastName_WhenLessThanThreeChars_ShouldReturnFalse() {
         UserRegistration userRegi = new UserRegistration();
         boolean result = userRegi.validateLastName("Va");
         Assert.assertEquals(false,result);
     }
 
+    @Test
+    public void givenEmailId_whenProper_shouldReturnTrue() {
+        UserRegistration userRegi = new UserRegistration();
+        boolean result = userRegi.validateEmailId("madhu.vayya@gmail.com");
+        Assert.assertEquals(true,result);
+    }
 }
