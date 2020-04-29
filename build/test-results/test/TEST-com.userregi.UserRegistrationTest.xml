@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.userregi.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-28T18:46:29" hostname="PRABHAKAR" time="0.002">
+  <properties/>
+  <testcase name="givenFirstName_WhenLessThanThreeChars_ShouldReturnFalse" classname="com.userregi.UserRegistrationTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
