@@ -53,4 +53,11 @@ public class UserRegistrationTest {
         boolean result = userRegi.validatePswd("nDj1k#jf");
         Assert.assertEquals(true,result);
     }
+
+    @Test
+    public void givenPswd_WhenAtleast1UpperCase_ShouldReturnTrue() {
+        UserRegistration userRegi = new UserRegistration();
+        boolean result = userRegi.validatePswd("3Rmdgk$1");
+        Assert.assertEquals(true,result);
+    }
 }
