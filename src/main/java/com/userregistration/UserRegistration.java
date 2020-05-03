@@ -1,4 +1,4 @@
-package com.userregi;
+package com.userregistration;
 
 import java.util.regex.Pattern;
 

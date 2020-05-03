@@ -1,4 +1,4 @@
-package com.userregi;
+package com.userregistration;
 
 import org.junit.Assert;
 import org.junit.Before;
